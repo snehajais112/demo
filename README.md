@@ -123,7 +123,7 @@ Returns the list of all items stored in memory.
 
 ## Hosting
 
-This application is deployed on **Render** and can be accessed using the live URL provided in the submission email.
+This application is deployed on **Railway** and can be accessed using the live URL provided in the submission email.
 
 ---
 
