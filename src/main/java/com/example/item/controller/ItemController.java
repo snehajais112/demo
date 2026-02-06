@@ -10,6 +10,7 @@ import java.util.List;
 @RequestMapping("/items")
 
 
+
 public class ItemController {
     @Autowired
     private ItemService itemService;
@@ -40,6 +41,10 @@ public class ItemController {
     @GetMapping
     public ResponseEntity<List<Item>> getAllItems() {
         return ResponseEntity.ok(itemService.getAllItems());
+    }
+    @GetMapping("/")
+    public String home() {
+        return "Item API is running successfully!";
     }
 
 }
