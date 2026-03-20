@@ -1,4 +1,4 @@
-# Item Management REST API
+# Inventory Management REST API
 
 This project is a simple Spring Boot REST API created as part of a sample task for a Freelance Java Developer role. The goal was to build a clean and easy-to-understand backend application that manages items using in-memory storage (ArrayList) and exposes REST APIs.
 
